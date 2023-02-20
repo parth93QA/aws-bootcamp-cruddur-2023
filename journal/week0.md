@@ -36,7 +36,7 @@ aws --version
 
 ### Alarm Config JSON
 
-![Alarm Config Json](assets/config-billing.json)
+([assets/config-billing.json](https://github.com/parth93QA/aws-bootcamp-cruddur-2023/blob/main/journal/assets/config-billing.json))
 
 
 
