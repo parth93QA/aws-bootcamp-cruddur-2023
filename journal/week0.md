@@ -12,9 +12,21 @@ Following instructions were used:
 curl "https://awscli.amazonaws.com/AWSCLIV2.pkg" -o "AWSCLIV2.pkg"
 sudo installer -pkg AWSCLIV2.pkg -target / **in my terminal**
 
-
 which aws
 aws --version
 ```
 
 ![Proof AWS CLI Is Working](assets/aws-cli-proof.png)
+
+
+### Create a Budget
+
+![Proof Budget Created)(assets/aws-budget.png)
+
+### Create a Billing Alarm
+
+![Proof Billung Alarm Created)(assets/aws-billing-alarm.png)
+
+### Recreate Logical Architecture
+
+![Cruddur Logical Design](assets/Logical-architecture-diagram.png)
