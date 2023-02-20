@@ -32,3 +32,11 @@ aws --version
 ![Cruddur Logical Design](assets/Logical-architecture-diagram.png)
 
 .[Lucid Charts share link](https://lucid.app/lucidchart/a2fa5a9f-39a5-4c47-9bdc-524975e14550/edit?viewport_loc=-1311%2C-1287%2C3891%2C2018%2C0_0&invitationId=inv_21a5a132-2167-4dc3-9e70-e05edf1eeb87)
+
+
+### Alarm Config JSON
+
+```json
+![Alarm Config Json](assets/config-billing.json)
+
+
