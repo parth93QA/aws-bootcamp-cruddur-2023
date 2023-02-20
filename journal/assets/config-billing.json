@@ -1,0 +1,40 @@
+{
+  "alarmName": "AWS-Billing-Alarm",
+  "alarmType": "MetricAlarm",
+  "timestamp": "2023-02-19T06:25:36.836Z",
+  "historyItemType": "ConfigurationUpdate",
+  "historySummary": "Alarm \"AWS-Billing-Alarm\" created",
+  "historyData": {
+    "version": "1.0",
+    "type": "Create",
+    "createdAlarm": {
+      "alarmName": "AWS-Billing-Alarm",
+      "alarmDescription": "",
+      "alarmArn": "arn:aws:cloudwatch:us-east-1:511478451001:alarm:AWS-Billing-Alarm",
+      "alarmConfigurationUpdatedTimestamp": "2023-02-19T06:25:36.835+0000",
+      "namespace": "AWS/Billing",
+      "metricName": "AWS Bootcamp est charges",
+      "statistic": "Maximum",
+      "period": 21600,
+      "dimensions": [
+        {
+          "value": "USD",
+          "name": "Currency"
+        }
+      ],
+      "threshold": 10,
+      "comparisonOperator": "GreaterThanThreshold",
+      "evaluationPeriods": 1,
+      "datapointsToAlarm": 1,
+      "treatMissingData": "missing",
+      "stateValue": "INSUFFICIENT_DATA",
+      "stateUpdatedTimestamp": "2023-02-19T06:25:36.835+0000",
+      "actionsEnabled": true,
+      "alarmActions": [
+        "arn:aws:sns:us-east-1:511478451001:aws-bootcamp-cost-topic"
+      ],
+      "insufficientDataActions": [],
+      "okactions": []
+    }
+  }
+}
