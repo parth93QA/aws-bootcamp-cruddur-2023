@@ -37,6 +37,7 @@ aws --version
 ### Alarm Config JSON
 
 ```json
-[Alarm Config Json](assets/config-billing.json)
+![Alarm Config Json](assets/config-billing.json)
+```
 
 
